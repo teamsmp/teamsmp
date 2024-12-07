@@ -20,9 +20,6 @@ importers:
       '@fontsource/geist-sans':
         specifier: ^5.1.0
         version: 5.1.0
-      bits-ui:
-        specifier: ^0.21.13
-        version: 0.21.13(svelte@5.0.0-next.244)
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -69,6 +66,9 @@ importers:
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.45)
+      bits-ui:
+        specifier: ^0.21.13
+        version: 0.21.13(svelte@5.0.0-next.244)
       eslint:
         specifier: ^9.0.0
         version: 9.10.0(jiti@1.21.6)
@@ -2013,7 +2013,9 @@ snapshots:
       bits-ui: 0.21.13(svelte@5.0.0-next.244)
       clsx: 2.1.1
       lucide-svelte: 0.441.0(svelte@5.0.0-next.244)
+      mode-watcher: 0.4.1(svelte@5.0.0-next.244)
       svelte-icons: 2.1.0
+      svelte-sonner: 0.3.28(svelte@5.0.0-next.244)
       tailwind-merge: 2.5.2
       tailwind-variants: 0.2.1(tailwindcss@3.4.11)
     transitivePeerDependencies:
