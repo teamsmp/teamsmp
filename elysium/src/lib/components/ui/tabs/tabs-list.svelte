@@ -1,15 +1,16 @@
 <script>
+    import { Tabs as TabsPrimitive } from "bits-ui";
     import { cn } from "$lib/utils.js";
     let className = undefined;
     export { className as class };
 </script>
 
-<div
+<TabsPrimitive.List
     class={cn(
-        "flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-2",
+        "inline-flex h-10 items-center justify-center rounded-md bg-muted p-1 text-muted-foreground",
         className
     )}
     {...$$restProps}
 >
     <slot />
-</div>
+</TabsPrimitive.List>
