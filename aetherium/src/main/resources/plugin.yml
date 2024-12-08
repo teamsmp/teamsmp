@@ -20,3 +20,8 @@ commands:
     aliases:
       - customgive
       - srvigive
+  punish:
+    description: [WIP] Punish another player
+      usage: /punish <type> <player> [time] <reason>
+      aliases:
+        - pn

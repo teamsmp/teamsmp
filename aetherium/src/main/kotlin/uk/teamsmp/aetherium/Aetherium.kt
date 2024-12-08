@@ -29,6 +29,10 @@ class Aetherium : JavaPlugin() {
             tabCompleter = CustomGiveCommand(this@Aetherium)
         }
         logger.info("Command CGIVE has been registered.")
+        getCommand("punish")?.apply {
+            setExecutor(PunishCommand(this@Aetherium))
+            tabCompleter = PunishCommand(this@Aetherium)
+        }
 
         server.pluginManager.registerEvents(SrviPebbleDrop(this@Aetherium), this)
         logger.info("Event listener SRVI_PEBBLE has been registered.")
