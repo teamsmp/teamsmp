@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aetherium.main.iml" filepath="$PROJECT_DIR$/.idea/modules/aetherium.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aetherium.test.iml" filepath="$PROJECT_DIR$/.idea/modules/aetherium.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/teamsmp.aetherium.main.iml" filepath="$PROJECT_DIR$/.idea/modules/teamsmp.aetherium.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/uk.teamsmp.aetherium.main.iml" filepath="$PROJECT_DIR$/.idea/modules/uk.teamsmp.aetherium.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uk.teamsmp.aetherium.test.iml" filepath="$PROJECT_DIR$/.idea/modules/uk.teamsmp.aetherium.test.iml" />
     </modules>
   </component>
 </project>

@@ -1,7 +1,7 @@
 name: aetherium
-version: '0.0.0-dev4'
+version: '0.0.0-dev5'
 main: uk.teamsmp.aetherium.Aetherium
-api-version: '1.20'
+api-version: '1.21.1'
 prefix: "aetherium"
 load: STARTUP
 authors: [ JunglTemple ]
@@ -13,4 +13,10 @@ commands:
     usage: /modvote <moderator_name>
   srvi:
     description: Functions for Survival Island
-    uasge: /srvi <function>
+    usage: /srvi <function>
+  cgive:
+    description: Give yourself an aetherium custom item
+    usage: /cgive <item> [amount]
+    aliases:
+      - customgive
+      - srvigive

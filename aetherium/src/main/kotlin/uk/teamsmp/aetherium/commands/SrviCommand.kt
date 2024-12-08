@@ -61,9 +61,7 @@ class SrviCommand(private val plugin: Aetherium) : CommandExecutor, TabCompleter
             return true
         }
 
-        val srviFunction = args[0]
-
-        when (srviFunction) {
+        when (val srviFunction = args[0]) {
             "tp" -> {
                 player.teleport(
                     Location(
@@ -77,7 +75,7 @@ class SrviCommand(private val plugin: Aetherium) : CommandExecutor, TabCompleter
                 player.playSound(player.location, Sound.ENTITY_ENDERMAN_TELEPORT, 1.0f, 1.0f)
                 return true
             }
-            "else" -> {
+            else -> {
                 player.sendMessage(mm.deserialize("${plugin.chatPrefix}The function <yellow>${srviFunction}</yellow> is not valid."))
                 player.playSound(player.location, Sound.BLOCK_ANVIL_LAND, 0.5f, 1.0f)
                 return true
@@ -90,6 +88,6 @@ class SrviCommand(private val plugin: Aetherium) : CommandExecutor, TabCompleter
         if (args.size == 1) {
             return listOf("tp").filter { it.startsWith(args[0], ignoreCase = true) }
         }
-        return null
+        return emptyList()
     }
 }

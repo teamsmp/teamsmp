@@ -5,17 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="542a2514-4b8c-470f-ac20-52121eb35414" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/commands/SrviCommand.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/utils/Utils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/commands/CustomGiveCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/commands/PunishCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/events/OverrideCustomCrafts.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/events/SrviPebbleDrop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/recipes/StoneFromPebbleRecipe.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/utils/ItemUtils.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/Aetherium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/Aetherium.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/commands/ModVoteCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/commands/ModVoteCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/commands/SrviCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/commands/SrviCommand.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,17 +48,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="aetherium" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="aetherium" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="aetherium" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -62,6 +58,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Object" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -69,7 +66,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="elysium-4-shadcn-svelte-migration" />
+        <entry key="$PROJECT_DIR$/.." value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -90,18 +87,20 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.aetherium [build].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.aetherium [wrapper].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/JunglTemple/Code/GitHub-Nosync/teamsmp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jungl/code/teamsmp/aetherium&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>

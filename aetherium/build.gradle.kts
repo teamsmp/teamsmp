@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "uk.teamsmp"
-version = "0.0.0-dev4"
+version = "0.0.0-dev5"
 
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.20.1-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("net.kyori:adventure-text-minimessage:4.17.0")
 }
