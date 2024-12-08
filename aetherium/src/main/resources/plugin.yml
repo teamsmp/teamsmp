@@ -21,7 +21,7 @@ commands:
       - customgive
       - srvigive
   punish:
-    description: [WIP] Punish another player
-      usage: /punish <type> <player> [time] <reason>
-      aliases:
-        - pn
+    description: "[WIP] Allows moderators to punish a player"
+    usage: "/punish <type> <player> [time] <reason>"
+    aliases:
+      - pn
