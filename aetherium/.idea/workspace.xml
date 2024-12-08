@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="542a2514-4b8c-470f-ac20-52121eb35414" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/commands/CustomGiveCommand.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/commands/PunishCommand.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/events/OverrideCustomCrafts.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/events/SrviPebbleDrop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/recipes/StoneFromPebbleRecipe.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/utils/ItemUtils.kt" afterDir="false" />
+    <list default="true" id="542a2514-4b8c-470f-ac20-52121eb35414" name="Changes" comment="fix(aetherium): register punish command">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/Aetherium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/Aetherium.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/commands/SrviCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/uk/teamsmp/aetherium/commands/SrviCommand.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
