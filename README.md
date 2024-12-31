@@ -1,28 +1,27 @@
 # Team SMP Monorepo
 
-This is now where the Team SMP's code is stored: an amazing monorepo!
+This is now where the Team SMP's code is stored: an amazing monorepo! I regret making it a monorepo, but, well, no going back now!
 
-## Contributing
+## Projects
 
-We are using the Git Flow workflow, which is a development workflow where all new features are developed in their own branches. This is the kind of format you want when creating a new flow branch:
+This contains an assortment of different projects related to the Team SMP. Here they are described:
 
-```
-testium-26-recalculate-splines
-```
+### `aetherium`
 
-In this format, the first segment is the name of the project (because this is a monorepo), the second is a number that increments with each flow branch across projects, and the third onwards is a description of the features to be introduced in the branch.
+`aetherium` was the Team SMP's custom plugin, but since the transition to a Velocity network, it has been phased out in favour of other plugins like [`neodymium`](#neodymium).
 
-We also prefer to use Conventional Commits, where each commit has a type, scope, header, body and optionally a footer. Here's an example:
+### `cerium`
 
-```
-feat(testium): recalculate splines
+`cerium` was an experimental Velocity plugin, although it has been discontinued in favour of `osmium` and [`osmiumd`](#osmiumd).
 
-This change recalculates all of those
-legendary splines! Completely new and
-completely random numbers for your
-pleasure.
+### `elysium`
 
-Fix: #82
-```
+`elysium` is the Team SMP's [official website](https://teamsmp.pages.dev/) coded in [Svelte](https://svelte.dev/) with [SvelteKit](https://kit.svelte.dev/) hosted through Cloudflare Pages at [teamsmp.pages.dev](https://teamsmp.pages.dev/).
 
-As you can see, the commit message has a type of `feat`, meaning "feature" and a scope of `testium`, which means that this commit made changes to the "testium" project. The body is self-explanatory, and you can see that the footer tells you this commit fixes an issue
+### `neodymium`
+
+`neodymium` is the Team SMP's brand new Season 3 Survival plugin, the features of which have not yet been implemented, but will include Survival-focused additions like the Recognition Rewards system and Grind Mode. Stay tuned for a blog post explaining the two.
+
+### `osmiumd`
+
+`osmiumd` is the orchestration server for the Team SMP network, coded in [Rust](https://www.rust-lang.org/) using [Axum](https://docs.rs/axum/) and will soon handle server marks (status) and staggered restarting, along with `osmium`, the Minecraft implementation of this.
