@@ -1,0 +1,138 @@
+
+------------------------------------------------------------
+Root project 'neodymium'
+------------------------------------------------------------
+
+_kgp_internal_kotlin_compile_transforms_registered: true
+allprojects: [root project 'neodymium']
+ant: org.gradle.api.internal.project.DefaultAntBuilder@2984ac64
+antBuilderFactory: org.gradle.api.internal.project.DefaultAntBuilderFactory@56b3e17
+archivesBaseName: neodymium
+artifacts: org.gradle.api.internal.artifacts.dsl.DefaultArtifactHandler_Decorated@7a4b665
+asDynamicObject: DynamicObject for root project 'neodymium'
+autoTargetJvmDisabled: false
+base: extension 'base'
+baseClassLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@30d29df2
+buildDir: /home/jungl/code/teamsmp/neodymium/build
+buildFile: /home/jungl/code/teamsmp/neodymium/build.gradle.kts
+buildPath: :
+buildScriptSource: org.gradle.groovy.scripts.TextResourceScriptSource@48564817
+buildTreePath: :
+buildscript: org.gradle.api.internal.initialization.DefaultScriptHandler_Decorated@443d2af5
+childProjects: {}
+childProjectsUnchecked: {}
+class: class org.gradle.api.internal.project.DefaultProject_Decorated
+classLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@1bd5c791
+clean: task ':clean'
+compileJava: task ':compileJava'
+compileTestJava: task ':compileTestJava'
+components: SoftwareComponent container
+configurationActions: org.gradle.configuration.project.DefaultProjectConfigurationActionContainer@18fa2fe3
+configurationTargetIdentifier: org.gradle.configuration.ConfigurationTargetIdentifier$1@3acfb507
+configurations: configuration container
+convention: org.gradle.internal.extensibility.DefaultConvention@402344b9
+conventionMapping: org.gradle.internal.extensibility.ConventionAwareHelper@6d64a4ca
+crossProjectModelAccess: org.gradle.api.internal.project.DefaultCrossProjectModelAccess@24a81bb2
+defaultArtifacts: extension 'defaultArtifacts'
+defaultTasks: []
+deferredProjectConfiguration: org.gradle.api.internal.project.DeferredProjectConfiguration@6308f5ad
+dependencies: org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler_Decorated@395463f9
+dependencyFactory: org.gradle.api.internal.artifacts.DefaultDependencyFactory@715ec2ed
+dependencyLocking: org.gradle.internal.locking.DefaultDependencyLockingHandler_Decorated@154f22ff
+dependencyMetaDataProvider: org.gradle.internal.service.scopes.ProjectScopeServices$ProjectBackedModuleMetaDataProvider@314e0866
+dependencyReport: task ':dependencyReport'
+depth: 0
+description: null
+detachedState: false
+displayName: root project 'neodymium'
+distsDirName: distributions
+distsDirectory: extension 'base' property 'distsDirectory'
+docsDir: /home/jungl/code/teamsmp/neodymium/build/docs
+docsDirName: docs
+ext: org.gradle.internal.extensibility.DefaultExtraPropertiesExtension@2b1fee1d
+extensions: org.gradle.internal.extensibility.DefaultConvention@402344b9
+fileOperations: org.gradle.api.internal.file.DefaultFileOperations@2c510839
+fileResolver: org.gradle.api.internal.file.BaseDirFileResolver@40e58f96
+gradle: build 'neodymium'
+gradleKotlinDsl.accessorsClassPath: AccessorsClassPath(bin=[/home/jungl/.gradle/caches/8.8/kotlin-dsl/accessors/06d2487e05456d701440490a428566d1/classes], src=[/home/jungl/.gradle/caches/8.8/kotlin-dsl/accessors/06d2487e05456d701440490a428566d1/sources])
+group: uk.teamsmp
+htmlDependencyReport: task ':htmlDependencyReport'
+identityPath: :
+inheritedScope: org.gradle.internal.extensibility.ExtensibleDynamicObject$InheritedDynamicObject@1a9a2d4
+internalStatus: property(java.lang.Object, fixed(class java.lang.String, integration))
+isolated: DefaultIsolatedProject{root project 'neodymium'}
+java: extension 'java'
+javaToolchains: extension 'javaToolchains'
+kotlin: extension 'kotlin'
+kotlin.plugin.loaded.in.projects.2.1.20-Beta1: :
+kotlin.properties.provider: org.jetbrains.kotlin.gradle.plugin.PropertiesProvider@71a601a1
+kotlinScripting: extension 'kotlinScripting'
+kotlinTestRegistry: org.jetbrains.kotlin.gradle.testing.internal.KotlinTestsRegistry@1dd3b93c
+layout: org.gradle.api.internal.file.DefaultProjectLayout@51a00750
+libsDirName: libs
+libsDirectory: extension 'base' property 'libsDirectory'
+listenerBuildOperationDecorator: org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator@12aedb95
+logger: org.gradle.internal.logging.slf4j.OutputEventListenerBackedLogger@7d69c4
+logging: org.gradle.internal.logging.services.DefaultLoggingManager@53c47b68
+model: root project 'neodymium'
+modelIdentityDisplayName: null
+modelRegistry: org.gradle.model.internal.registry.DefaultModelRegistry@535e2275
+name: neodymium
+normalization: org.gradle.normalization.internal.DefaultInputNormalizationHandler_Decorated@21535c9
+objects: org.gradle.api.internal.model.DefaultObjectFactory@6603246d
+org.jetbrains.kotlin.gradle.utils.SingleActionPerProject: org.jetbrains.kotlin.gradle.utils.SingleAction$PerformedActions@16ec1cfe
+org.jetbrains.kotlin.gradle.utils.StoredPropertyStorage: org.jetbrains.kotlin.gradle.utils.StoredPropertyStorage@3403d9dc
+org.jetbrains.kotlin.whenEvaluated: [() -> kotlin.Unit, () -> kotlin.Unit]
+owner: root project 'neodymium'
+parent: null
+parentIdentifier: null
+path: :
+pluginContext: false
+pluginManager: org.gradle.api.internal.plugins.DefaultPluginManager_Decorated@1f9309e8
+plugins: [org.gradle.api.plugins.HelpTasksPlugin$Inject@40125d39, org.gradle.buildinit.plugins.BuildInitPlugin$Inject@7420acd0, org.gradle.buildinit.plugins.WrapperPlugin$Inject@4d048c13, org.gradle.language.base.plugins.LifecycleBasePlugin$Inject@62cd09c7, org.gradle.api.plugins.BasePlugin$Inject@5ceadc6b, org.gradle.api.plugins.JvmEcosystemPlugin$Inject@56e36500, org.gradle.api.plugins.ReportingBasePlugin$Inject@c672568, org.gradle.api.plugins.JvmToolchainsPlugin$Inject@1ee7bf60, org.gradle.api.plugins.JavaBasePlugin$Inject@1d84fb46, org.gradle.testing.base.plugins.TestSuiteBasePlugin$Inject@4790e1c9, org.gradle.api.plugins.JvmTestSuitePlugin$Inject@56852e3f, org.gradle.api.plugins.JavaPlugin$Inject@7b0f4a12, org.jetbrains.kotlin.gradle.scripting.internal.ScriptingKotlinGradleSubplugin@4bae018a, org.jetbrains.kotlin.gradle.scripting.internal.ScriptingGradleSubplugin@752b4333, org.jetbrains.kotlin.gradle.plugin.KotlinPluginWrapper@3db2465d, com.github.jengelman.gradle.plugins.shadow.ShadowBasePlugin@567c6b1, com.github.jengelman.gradle.plugins.shadow.ShadowJavaPlugin@2e4c1e3f, com.github.jengelman.gradle.plugins.shadow.ShadowPlugin@e0d5b50, org.gradle.kotlin.dsl.provider.plugins.KotlinScriptRootPlugin$Inject@313c789c, org.gradle.kotlin.dsl.provider.plugins.KotlinScriptBasePlugin$Inject@2b13a4a2, org.gradle.api.plugins.ProjectReportsPlugin$Inject@499ee87e]
+processOperations: org.gradle.process.internal.DefaultExecActionFactory$DecoratingExecActionFactory@604c763b
+project: root project 'neodymium'
+projectConfigurator: org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator@16319d20
+projectDir: /home/jungl/code/teamsmp/neodymium
+projectEvaluationBroadcaster: ProjectEvaluationListener broadcast
+projectEvaluator: org.gradle.configuration.project.LifecycleProjectEvaluator@3c566b03
+projectPath: :
+projectReport: task ':projectReport'
+projectReportAll: task ':projectReportAll'
+projectReportDir: /home/jungl/code/teamsmp/neodymium/build/reports/project
+projectReportDirName: project
+projects: [root project 'neodymium']
+properties: {...}
+propertyReport: task ':propertyReport'
+providers: org.gradle.api.internal.provider.DefaultProviderFactory_Decorated@3b8de928
+publicType: org.gradle.api.plugins.ProjectReportsPluginConvention
+reporting: extension 'reporting'
+repositories: repository container
+resources: org.gradle.api.internal.resources.DefaultResourceHandler@3873adcc
+rootDir: /home/jungl/code/teamsmp/neodymium
+rootProject: root project 'neodymium'
+rootScript: false
+script: false
+scriptHandlerFactory: org.gradle.api.internal.initialization.DefaultScriptHandlerFactory@2231ff7f
+scriptPluginFactory: org.gradle.configuration.ScriptPluginFactorySelector@2d308649
+serviceRegistryFactory: org.gradle.internal.service.scopes.BuildScopeServiceRegistryFactory@7920ee6e
+services: Project services
+shadow: extension 'shadow'
+sourceCompatibility: 21
+sourceSets: SourceSet container
+standardOutputCapture: org.gradle.internal.logging.services.DefaultLoggingManager@53c47b68
+state: project state 'EXECUTED'
+status: integration
+subprojects: []
+targetCompatibility: 21
+taskDependencyFactory: org.gradle.api.internal.tasks.DefaultTaskDependencyFactory@5c18214b
+taskReport: task ':taskReport'
+taskThatOwnsThisObject: null
+tasks: task set
+testReportDir: /home/jungl/code/teamsmp/neodymium/build/reports/tests
+testReportDirName: tests
+testResultsDir: /home/jungl/code/teamsmp/neodymium/build/test-results
+testResultsDirName: test-results
+testing: extension 'testing'
+version: 0.0.1-beta
+versionCatalogs: extension 'versionCatalogs'

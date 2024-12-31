@@ -5,29 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35fd9516-43f1-423d-a65d-a3eb3a0692aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../aetherium/src/main/kotlin/uk/teamsmp/aetherium/events/MinecartSpeed.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cerium/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cerium/.idea/modules/cerium.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../osmiumd/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../osmiumd/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../osmiumd/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/.idea/osmiumd_rs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/servers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/src/check.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/src/routes.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/src/storage.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/src/types.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aetherium/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../aetherium/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aetherium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aetherium/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aetherium/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../aetherium/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aetherium/src/main/kotlin/uk/teamsmp/aetherium/Aetherium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../aetherium/src/main/kotlin/uk/teamsmp/aetherium/Aetherium.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aetherium/src/main/kotlin/uk/teamsmp/aetherium/events/OverrideCustomCrafts.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../aetherium/src/main/kotlin/uk/teamsmp/aetherium/events/OverrideCustomCrafts.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aetherium/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../aetherium/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../elysium/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../elysium/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cerium/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../cerium/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +76,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "aetherium-srvi-custom"
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

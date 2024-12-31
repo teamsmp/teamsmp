@@ -1,0 +1,715 @@
+
+------------------------------------------------------------
+Root project 'cerium'
+------------------------------------------------------------
+
+annotationProcessor - Annotation processors and their dependencies for source set 'main'.
+No dependencies
+
+api - API dependencies for null/main (n)
+No dependencies
+
+apiDependenciesMetadata
+No dependencies
+
+apiElements - API elements for the 'main' feature. (n)
+No dependencies
+
+apiElements-published (n)
+No dependencies
+
+compileClasspath - Compile classpath for null/main.
++--- com.velocitypowered:velocity-api:3.4.0-SNAPSHOT
+|    +--- com.google.code.gson:gson:2.10.1
+|    +--- com.google.guava:guava:25.1-jre -> 31.0.1-jre
+|    |    +--- com.google.guava:failureaccess:1.0.1
+|    |    +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+|    |    +--- com.google.code.findbugs:jsr305:3.0.2
+|    |    +--- org.checkerframework:checker-qual:3.12.0 -> 3.42.0
+|    |    +--- com.google.errorprone:error_prone_annotations:2.7.1 -> 2.21.1
+|    |    \--- com.google.j2objc:j2objc-annotations:1.3
+|    +--- com.moandjiezana.toml:toml4j:0.7.2
+|    |    \--- com.google.code.gson:gson:2.8.1 -> 2.10.1
+|    +--- net.kyori:adventure-bom:4.18.0
+|    |    +--- net.kyori:adventure-api:4.18.0 (c)
+|    |    +--- net.kyori:adventure-text-logger-slf4j:4.18.0 (c)
+|    |    +--- net.kyori:adventure-text-minimessage:4.18.0 (c)
+|    |    +--- net.kyori:adventure-text-serializer-ansi:4.18.0 (c)
+|    |    +--- net.kyori:adventure-text-serializer-gson:4.18.0 (c)
+|    |    +--- net.kyori:adventure-text-serializer-legacy:4.18.0 (c)
+|    |    +--- net.kyori:adventure-text-serializer-plain:4.18.0 (c)
+|    |    +--- net.kyori:adventure-key:4.18.0 (c)
+|    |    \--- net.kyori:adventure-text-serializer-json:4.18.0 (c)
+|    +--- net.kyori:adventure-api -> 4.18.0
+|    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+|    |    +--- net.kyori:adventure-key:4.18.0
+|    |    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+|    |    |    +--- net.kyori:examination-api:1.3.0
+|    |    |    |    \--- org.jetbrains:annotations:22.0.0 -> 26.0.1
+|    |    |    +--- net.kyori:examination-string:1.3.0
+|    |    |    |    \--- net.kyori:examination-api:1.3.0 (*)
+|    |    |    \--- org.jetbrains:annotations:26.0.1
+|    |    +--- net.kyori:examination-api:1.3.0 (*)
+|    |    +--- net.kyori:examination-string:1.3.0 (*)
+|    |    \--- org.jetbrains:annotations:26.0.1
+|    +--- net.kyori:adventure-text-serializer-gson -> 4.18.0
+|    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+|    |    +--- net.kyori:adventure-text-serializer-json:4.18.0
+|    |    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+|    |    |    +--- net.kyori:adventure-api:4.18.0 (*)
+|    |    |    \--- net.kyori:option:1.0.0
+|    |    |         \--- org.jetbrains:annotations:24.1.0 -> 26.0.1
+|    |    +--- com.google.code.gson:gson:2.8.0 -> 2.10.1
+|    |    \--- com.google.auto.service:auto-service-annotations:1.1.1
+|    +--- net.kyori:adventure-text-serializer-legacy -> 4.18.0
+|    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+|    |    \--- net.kyori:adventure-api:4.18.0 (*)
+|    +--- net.kyori:adventure-text-serializer-plain -> 4.18.0
+|    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+|    |    \--- net.kyori:adventure-api:4.18.0 (*)
+|    +--- net.kyori:adventure-text-minimessage -> 4.18.0
+|    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+|    |    \--- net.kyori:adventure-api:4.18.0 (*)
+|    +--- net.kyori:adventure-text-logger-slf4j -> 4.18.0
+|    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+|    |    +--- net.kyori:adventure-api:4.18.0 (*)
+|    |    \--- org.slf4j:slf4j-api:1.7.36 -> 2.0.12
+|    +--- net.kyori:adventure-text-serializer-ansi -> 4.18.0
+|    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+|    |    +--- net.kyori:adventure-api:4.18.0 (*)
+|    |    \--- net.kyori:ansi:1.1.1
+|    |         \--- org.jetbrains:annotations:26.0.1
+|    +--- org.yaml:snakeyaml:1.33
+|    +--- org.slf4j:slf4j-api:2.0.12
+|    +--- com.google.inject:guice:6.0.0
+|    |    +--- javax.inject:javax.inject:1
+|    |    +--- jakarta.inject:jakarta.inject-api:2.0.1
+|    |    +--- aopalliance:aopalliance:1.0
+|    |    \--- com.google.guava:guava:31.0.1-jre (*)
+|    +--- org.checkerframework:checker-qual:3.42.0
+|    +--- com.velocitypowered:velocity-brigadier:1.0.0-SNAPSHOT
+|    +--- org.spongepowered:configurate-hocon:4.1.2
+|    |    +--- org.spongepowered:configurate-core:4.1.2
+|    |    |    +--- io.leangen.geantyref:geantyref:1.3.11
+|    |    |    +--- com.google.errorprone:error_prone_annotations:2.6.0 -> 2.21.1
+|    |    |    \--- org.checkerframework:checker-qual:3.12.0 -> 3.42.0
+|    |    \--- com.google.errorprone:error_prone_annotations:2.6.0 -> 2.21.1
+|    +--- org.spongepowered:configurate-yaml:4.1.2
+|    |    +--- org.spongepowered:configurate-core:4.1.2 (*)
+|    |    \--- com.google.errorprone:error_prone_annotations:2.6.0 -> 2.21.1
+|    +--- org.spongepowered:configurate-gson:4.1.2
+|    |    +--- org.spongepowered:configurate-core:4.1.2 (*)
+|    |    \--- com.google.errorprone:error_prone_annotations:2.6.0 -> 2.21.1
+|    +--- com.github.ben-manes.caffeine:caffeine:3.1.8
+|    |    +--- org.checkerframework:checker-qual:3.37.0 -> 3.42.0
+|    |    \--- com.google.errorprone:error_prone_annotations:2.21.1
+|    \--- org.jspecify:jspecify:0.3.0
+\--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.20-Beta1
+     +--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1
+     |    +--- org.jetbrains:annotations:13.0 -> 26.0.1
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> 2.0.20-Beta1 (c)
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> 2.0.20-Beta1 (c)
+     \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.0.20-Beta1
+          \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+
+compileOnly - Compile only dependencies for null/main. (n)
+\--- com.velocitypowered:velocity-api:3.4.0-SNAPSHOT (n)
+
+compileOnlyDependenciesMetadata
+\--- com.velocitypowered:velocity-api:3.4.0-SNAPSHOT
+     +--- com.google.code.gson:gson:2.10.1
+     +--- com.google.guava:guava:25.1-jre -> 31.0.1-jre
+     |    +--- com.google.guava:failureaccess:1.0.1
+     |    +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+     |    +--- com.google.code.findbugs:jsr305:3.0.2
+     |    +--- org.checkerframework:checker-qual:3.12.0 -> 3.42.0
+     |    +--- com.google.errorprone:error_prone_annotations:2.7.1 -> 2.21.1
+     |    \--- com.google.j2objc:j2objc-annotations:1.3
+     +--- com.moandjiezana.toml:toml4j:0.7.2
+     |    \--- com.google.code.gson:gson:2.8.1 -> 2.10.1
+     +--- net.kyori:adventure-bom:4.18.0
+     |    +--- net.kyori:adventure-api:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-logger-slf4j:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-minimessage:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-ansi:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-gson:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-legacy:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-plain:4.18.0 (c)
+     |    +--- net.kyori:adventure-key:4.18.0 (c)
+     |    \--- net.kyori:adventure-text-serializer-json:4.18.0 (c)
+     +--- net.kyori:adventure-api -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-key:4.18.0
+     |    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    |    +--- net.kyori:examination-api:1.3.0
+     |    |    |    \--- org.jetbrains:annotations:22.0.0 -> 26.0.1
+     |    |    +--- net.kyori:examination-string:1.3.0
+     |    |    |    \--- net.kyori:examination-api:1.3.0 (*)
+     |    |    \--- org.jetbrains:annotations:26.0.1
+     |    +--- net.kyori:examination-api:1.3.0 (*)
+     |    +--- net.kyori:examination-string:1.3.0 (*)
+     |    \--- org.jetbrains:annotations:26.0.1
+     +--- net.kyori:adventure-text-serializer-gson -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-text-serializer-json:4.18.0
+     |    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    |    +--- net.kyori:adventure-api:4.18.0 (*)
+     |    |    \--- net.kyori:option:1.0.0
+     |    |         \--- org.jetbrains:annotations:24.1.0 -> 26.0.1
+     |    +--- com.google.code.gson:gson:2.8.0 -> 2.10.1
+     |    \--- com.google.auto.service:auto-service-annotations:1.1.1
+     +--- net.kyori:adventure-text-serializer-legacy -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    \--- net.kyori:adventure-api:4.18.0 (*)
+     +--- net.kyori:adventure-text-serializer-plain -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    \--- net.kyori:adventure-api:4.18.0 (*)
+     +--- net.kyori:adventure-text-minimessage -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    \--- net.kyori:adventure-api:4.18.0 (*)
+     +--- net.kyori:adventure-text-logger-slf4j -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-api:4.18.0 (*)
+     |    \--- org.slf4j:slf4j-api:1.7.36 -> 2.0.12
+     +--- net.kyori:adventure-text-serializer-ansi -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-api:4.18.0 (*)
+     |    \--- net.kyori:ansi:1.1.1
+     |         \--- org.jetbrains:annotations:26.0.1
+     +--- org.yaml:snakeyaml:1.33
+     +--- org.slf4j:slf4j-api:2.0.12
+     +--- com.google.inject:guice:6.0.0
+     |    +--- javax.inject:javax.inject:1
+     |    +--- jakarta.inject:jakarta.inject-api:2.0.1
+     |    +--- aopalliance:aopalliance:1.0
+     |    \--- com.google.guava:guava:31.0.1-jre (*)
+     +--- org.checkerframework:checker-qual:3.42.0
+     +--- com.velocitypowered:velocity-brigadier:1.0.0-SNAPSHOT
+     +--- org.spongepowered:configurate-hocon:4.1.2
+     |    +--- org.spongepowered:configurate-core:4.1.2
+     |    |    +--- io.leangen.geantyref:geantyref:1.3.11
+     |    |    +--- com.google.errorprone:error_prone_annotations:2.6.0 -> 2.21.1
+     |    |    \--- org.checkerframework:checker-qual:3.12.0 -> 3.42.0
+     |    \--- com.google.errorprone:error_prone_annotations:2.6.0 -> 2.21.1
+     +--- org.spongepowered:configurate-yaml:4.1.2
+     |    +--- org.spongepowered:configurate-core:4.1.2 (*)
+     |    \--- com.google.errorprone:error_prone_annotations:2.6.0 -> 2.21.1
+     +--- org.spongepowered:configurate-gson:4.1.2
+     |    +--- org.spongepowered:configurate-core:4.1.2 (*)
+     |    \--- com.google.errorprone:error_prone_annotations:2.6.0 -> 2.21.1
+     +--- com.github.ben-manes.caffeine:caffeine:3.1.8
+     |    +--- org.checkerframework:checker-qual:3.37.0 -> 3.42.0
+     |    \--- com.google.errorprone:error_prone_annotations:2.21.1
+     \--- org.jspecify:jspecify:0.3.0
+
+default - Configuration for default artifacts. (n)
+No dependencies
+
+implementation - Implementation only dependencies for null/main. (n)
+\--- org.jetbrains.kotlin:kotlin-stdlib-jdk8 (n)
+
+implementationDependenciesMetadata
+\--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.20-Beta1
+     +--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1
+     \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.0.20-Beta1
+          \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1
+
+intransitiveDependenciesMetadata
+No dependencies
+
+kapt
+\--- com.velocitypowered:velocity-api:3.4.0-SNAPSHOT
+     +--- com.google.code.gson:gson:2.10.1
+     +--- com.google.guava:guava:25.1-jre -> 31.0.1-jre
+     |    +--- com.google.guava:failureaccess:1.0.1
+     |    +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+     |    +--- com.google.code.findbugs:jsr305:3.0.2
+     |    +--- org.checkerframework:checker-qual:3.12.0 -> 3.42.0
+     |    +--- com.google.errorprone:error_prone_annotations:2.7.1 -> 2.21.1
+     |    \--- com.google.j2objc:j2objc-annotations:1.3
+     +--- com.moandjiezana.toml:toml4j:0.7.2
+     |    \--- com.google.code.gson:gson:2.8.1 -> 2.10.1
+     +--- net.kyori:adventure-bom:4.18.0
+     |    +--- net.kyori:adventure-api:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-logger-slf4j:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-minimessage:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-ansi:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-gson:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-legacy:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-plain:4.18.0 (c)
+     |    +--- net.kyori:adventure-key:4.18.0 (c)
+     |    \--- net.kyori:adventure-text-serializer-json:4.18.0 (c)
+     +--- net.kyori:adventure-api -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-key:4.18.0
+     |    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    |    +--- net.kyori:examination-api:1.3.0
+     |    |    \--- net.kyori:examination-string:1.3.0
+     |    |         \--- net.kyori:examination-api:1.3.0
+     |    +--- net.kyori:examination-api:1.3.0
+     |    \--- net.kyori:examination-string:1.3.0 (*)
+     +--- net.kyori:adventure-text-serializer-gson -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-text-serializer-json:4.18.0
+     |    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    |    +--- net.kyori:adventure-api:4.18.0 (*)
+     |    |    \--- net.kyori:option:1.0.0
+     |    \--- com.google.code.gson:gson:2.8.0 -> 2.10.1
+     +--- net.kyori:adventure-text-serializer-legacy -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    \--- net.kyori:adventure-api:4.18.0 (*)
+     +--- net.kyori:adventure-text-serializer-plain -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    \--- net.kyori:adventure-api:4.18.0 (*)
+     +--- net.kyori:adventure-text-minimessage -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    \--- net.kyori:adventure-api:4.18.0 (*)
+     +--- net.kyori:adventure-text-logger-slf4j -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-api:4.18.0 (*)
+     |    \--- org.slf4j:slf4j-api:1.7.36 -> 2.0.12
+     +--- net.kyori:adventure-text-serializer-ansi -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-api:4.18.0 (*)
+     |    \--- net.kyori:ansi:1.1.1
+     +--- org.yaml:snakeyaml:1.33
+     +--- org.slf4j:slf4j-api:2.0.12
+     +--- com.google.inject:guice:6.0.0
+     |    +--- javax.inject:javax.inject:1
+     |    +--- jakarta.inject:jakarta.inject-api:2.0.1
+     |    +--- aopalliance:aopalliance:1.0
+     |    \--- com.google.guava:guava:31.0.1-jre (*)
+     +--- org.checkerframework:checker-qual:3.42.0
+     +--- com.velocitypowered:velocity-brigadier:1.0.0-SNAPSHOT
+     +--- org.spongepowered:configurate-hocon:4.1.2
+     |    +--- com.typesafe:config:1.4.1
+     |    \--- org.spongepowered:configurate-core:4.1.2
+     |         \--- io.leangen.geantyref:geantyref:1.3.11
+     +--- org.spongepowered:configurate-yaml:4.1.2
+     |    +--- org.yaml:snakeyaml:1.28 -> 1.33
+     |    \--- org.spongepowered:configurate-core:4.1.2 (*)
+     +--- org.spongepowered:configurate-gson:4.1.2
+     |    +--- com.google.code.gson:gson:2.8.0 -> 2.10.1
+     |    \--- org.spongepowered:configurate-core:4.1.2 (*)
+     \--- com.github.ben-manes.caffeine:caffeine:3.1.8
+          +--- org.checkerframework:checker-qual:3.37.0 -> 3.42.0
+          \--- com.google.errorprone:error_prone_annotations:2.21.1
+
+kaptClasspath_kaptKotlin
+\--- com.velocitypowered:velocity-api:3.4.0-SNAPSHOT
+     +--- com.google.code.gson:gson:2.10.1
+     +--- com.google.guava:guava:25.1-jre -> 31.0.1-jre
+     |    +--- com.google.guava:failureaccess:1.0.1
+     |    +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+     |    +--- com.google.code.findbugs:jsr305:3.0.2
+     |    +--- org.checkerframework:checker-qual:3.12.0 -> 3.42.0
+     |    +--- com.google.errorprone:error_prone_annotations:2.7.1 -> 2.21.1
+     |    \--- com.google.j2objc:j2objc-annotations:1.3
+     +--- com.moandjiezana.toml:toml4j:0.7.2
+     |    \--- com.google.code.gson:gson:2.8.1 -> 2.10.1
+     +--- net.kyori:adventure-bom:4.18.0
+     |    +--- net.kyori:adventure-api:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-logger-slf4j:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-minimessage:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-ansi:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-gson:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-legacy:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-plain:4.18.0 (c)
+     |    +--- net.kyori:adventure-key:4.18.0 (c)
+     |    \--- net.kyori:adventure-text-serializer-json:4.18.0 (c)
+     +--- net.kyori:adventure-api -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-key:4.18.0
+     |    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    |    +--- net.kyori:examination-api:1.3.0
+     |    |    \--- net.kyori:examination-string:1.3.0
+     |    |         \--- net.kyori:examination-api:1.3.0
+     |    +--- net.kyori:examination-api:1.3.0
+     |    \--- net.kyori:examination-string:1.3.0 (*)
+     +--- net.kyori:adventure-text-serializer-gson -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-text-serializer-json:4.18.0
+     |    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    |    +--- net.kyori:adventure-api:4.18.0 (*)
+     |    |    \--- net.kyori:option:1.0.0
+     |    \--- com.google.code.gson:gson:2.8.0 -> 2.10.1
+     +--- net.kyori:adventure-text-serializer-legacy -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    \--- net.kyori:adventure-api:4.18.0 (*)
+     +--- net.kyori:adventure-text-serializer-plain -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    \--- net.kyori:adventure-api:4.18.0 (*)
+     +--- net.kyori:adventure-text-minimessage -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    \--- net.kyori:adventure-api:4.18.0 (*)
+     +--- net.kyori:adventure-text-logger-slf4j -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-api:4.18.0 (*)
+     |    \--- org.slf4j:slf4j-api:1.7.36 -> 2.0.12
+     +--- net.kyori:adventure-text-serializer-ansi -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-api:4.18.0 (*)
+     |    \--- net.kyori:ansi:1.1.1
+     +--- org.yaml:snakeyaml:1.33
+     +--- org.slf4j:slf4j-api:2.0.12
+     +--- com.google.inject:guice:6.0.0
+     |    +--- javax.inject:javax.inject:1
+     |    +--- jakarta.inject:jakarta.inject-api:2.0.1
+     |    +--- aopalliance:aopalliance:1.0
+     |    \--- com.google.guava:guava:31.0.1-jre (*)
+     +--- org.checkerframework:checker-qual:3.42.0
+     +--- com.velocitypowered:velocity-brigadier:1.0.0-SNAPSHOT
+     +--- org.spongepowered:configurate-hocon:4.1.2
+     |    +--- com.typesafe:config:1.4.1
+     |    \--- org.spongepowered:configurate-core:4.1.2
+     |         \--- io.leangen.geantyref:geantyref:1.3.11
+     +--- org.spongepowered:configurate-yaml:4.1.2
+     |    +--- org.yaml:snakeyaml:1.28 -> 1.33
+     |    \--- org.spongepowered:configurate-core:4.1.2 (*)
+     +--- org.spongepowered:configurate-gson:4.1.2
+     |    +--- com.google.code.gson:gson:2.8.0 -> 2.10.1
+     |    \--- org.spongepowered:configurate-core:4.1.2 (*)
+     \--- com.github.ben-manes.caffeine:caffeine:3.1.8
+          +--- org.checkerframework:checker-qual:3.37.0 -> 3.42.0
+          \--- com.google.errorprone:error_prone_annotations:2.21.1
+
+kaptClasspath_kaptTestKotlin
+\--- com.velocitypowered:velocity-api:3.4.0-SNAPSHOT
+     +--- com.google.code.gson:gson:2.10.1
+     +--- com.google.guava:guava:25.1-jre -> 31.0.1-jre
+     |    +--- com.google.guava:failureaccess:1.0.1
+     |    +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+     |    +--- com.google.code.findbugs:jsr305:3.0.2
+     |    +--- org.checkerframework:checker-qual:3.12.0 -> 3.42.0
+     |    +--- com.google.errorprone:error_prone_annotations:2.7.1 -> 2.21.1
+     |    \--- com.google.j2objc:j2objc-annotations:1.3
+     +--- com.moandjiezana.toml:toml4j:0.7.2
+     |    \--- com.google.code.gson:gson:2.8.1 -> 2.10.1
+     +--- net.kyori:adventure-bom:4.18.0
+     |    +--- net.kyori:adventure-api:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-logger-slf4j:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-minimessage:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-ansi:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-gson:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-legacy:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-plain:4.18.0 (c)
+     |    +--- net.kyori:adventure-key:4.18.0 (c)
+     |    \--- net.kyori:adventure-text-serializer-json:4.18.0 (c)
+     +--- net.kyori:adventure-api -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-key:4.18.0
+     |    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    |    +--- net.kyori:examination-api:1.3.0
+     |    |    \--- net.kyori:examination-string:1.3.0
+     |    |         \--- net.kyori:examination-api:1.3.0
+     |    +--- net.kyori:examination-api:1.3.0
+     |    \--- net.kyori:examination-string:1.3.0 (*)
+     +--- net.kyori:adventure-text-serializer-gson -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-text-serializer-json:4.18.0
+     |    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    |    +--- net.kyori:adventure-api:4.18.0 (*)
+     |    |    \--- net.kyori:option:1.0.0
+     |    \--- com.google.code.gson:gson:2.8.0 -> 2.10.1
+     +--- net.kyori:adventure-text-serializer-legacy -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    \--- net.kyori:adventure-api:4.18.0 (*)
+     +--- net.kyori:adventure-text-serializer-plain -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    \--- net.kyori:adventure-api:4.18.0 (*)
+     +--- net.kyori:adventure-text-minimessage -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    \--- net.kyori:adventure-api:4.18.0 (*)
+     +--- net.kyori:adventure-text-logger-slf4j -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-api:4.18.0 (*)
+     |    \--- org.slf4j:slf4j-api:1.7.36 -> 2.0.12
+     +--- net.kyori:adventure-text-serializer-ansi -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-api:4.18.0 (*)
+     |    \--- net.kyori:ansi:1.1.1
+     +--- org.yaml:snakeyaml:1.33
+     +--- org.slf4j:slf4j-api:2.0.12
+     +--- com.google.inject:guice:6.0.0
+     |    +--- javax.inject:javax.inject:1
+     |    +--- jakarta.inject:jakarta.inject-api:2.0.1
+     |    +--- aopalliance:aopalliance:1.0
+     |    \--- com.google.guava:guava:31.0.1-jre (*)
+     +--- org.checkerframework:checker-qual:3.42.0
+     +--- com.velocitypowered:velocity-brigadier:1.0.0-SNAPSHOT
+     +--- org.spongepowered:configurate-hocon:4.1.2
+     |    +--- com.typesafe:config:1.4.1
+     |    \--- org.spongepowered:configurate-core:4.1.2
+     |         \--- io.leangen.geantyref:geantyref:1.3.11
+     +--- org.spongepowered:configurate-yaml:4.1.2
+     |    +--- org.yaml:snakeyaml:1.28 -> 1.33
+     |    \--- org.spongepowered:configurate-core:4.1.2 (*)
+     +--- org.spongepowered:configurate-gson:4.1.2
+     |    +--- com.google.code.gson:gson:2.8.0 -> 2.10.1
+     |    \--- org.spongepowered:configurate-core:4.1.2 (*)
+     \--- com.github.ben-manes.caffeine:caffeine:3.1.8
+          +--- org.checkerframework:checker-qual:3.37.0 -> 3.42.0
+          \--- com.google.errorprone:error_prone_annotations:2.21.1
+
+kaptTest
+\--- com.velocitypowered:velocity-api:3.4.0-SNAPSHOT
+     +--- com.google.code.gson:gson:2.10.1
+     +--- com.google.guava:guava:25.1-jre -> 31.0.1-jre
+     |    +--- com.google.guava:failureaccess:1.0.1
+     |    +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+     |    +--- com.google.code.findbugs:jsr305:3.0.2
+     |    +--- org.checkerframework:checker-qual:3.12.0 -> 3.42.0
+     |    +--- com.google.errorprone:error_prone_annotations:2.7.1 -> 2.21.1
+     |    \--- com.google.j2objc:j2objc-annotations:1.3
+     +--- com.moandjiezana.toml:toml4j:0.7.2
+     |    \--- com.google.code.gson:gson:2.8.1 -> 2.10.1
+     +--- net.kyori:adventure-bom:4.18.0
+     |    +--- net.kyori:adventure-api:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-logger-slf4j:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-minimessage:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-ansi:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-gson:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-legacy:4.18.0 (c)
+     |    +--- net.kyori:adventure-text-serializer-plain:4.18.0 (c)
+     |    +--- net.kyori:adventure-key:4.18.0 (c)
+     |    \--- net.kyori:adventure-text-serializer-json:4.18.0 (c)
+     +--- net.kyori:adventure-api -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-key:4.18.0
+     |    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    |    +--- net.kyori:examination-api:1.3.0
+     |    |    \--- net.kyori:examination-string:1.3.0
+     |    |         \--- net.kyori:examination-api:1.3.0
+     |    +--- net.kyori:examination-api:1.3.0
+     |    \--- net.kyori:examination-string:1.3.0 (*)
+     +--- net.kyori:adventure-text-serializer-gson -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-text-serializer-json:4.18.0
+     |    |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    |    +--- net.kyori:adventure-api:4.18.0 (*)
+     |    |    \--- net.kyori:option:1.0.0
+     |    \--- com.google.code.gson:gson:2.8.0 -> 2.10.1
+     +--- net.kyori:adventure-text-serializer-legacy -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    \--- net.kyori:adventure-api:4.18.0 (*)
+     +--- net.kyori:adventure-text-serializer-plain -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    \--- net.kyori:adventure-api:4.18.0 (*)
+     +--- net.kyori:adventure-text-minimessage -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    \--- net.kyori:adventure-api:4.18.0 (*)
+     +--- net.kyori:adventure-text-logger-slf4j -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-api:4.18.0 (*)
+     |    \--- org.slf4j:slf4j-api:1.7.36 -> 2.0.12
+     +--- net.kyori:adventure-text-serializer-ansi -> 4.18.0
+     |    +--- net.kyori:adventure-bom:4.18.0 (*)
+     |    +--- net.kyori:adventure-api:4.18.0 (*)
+     |    \--- net.kyori:ansi:1.1.1
+     +--- org.yaml:snakeyaml:1.33
+     +--- org.slf4j:slf4j-api:2.0.12
+     +--- com.google.inject:guice:6.0.0
+     |    +--- javax.inject:javax.inject:1
+     |    +--- jakarta.inject:jakarta.inject-api:2.0.1
+     |    +--- aopalliance:aopalliance:1.0
+     |    \--- com.google.guava:guava:31.0.1-jre (*)
+     +--- org.checkerframework:checker-qual:3.42.0
+     +--- com.velocitypowered:velocity-brigadier:1.0.0-SNAPSHOT
+     +--- org.spongepowered:configurate-hocon:4.1.2
+     |    +--- com.typesafe:config:1.4.1
+     |    \--- org.spongepowered:configurate-core:4.1.2
+     |         \--- io.leangen.geantyref:geantyref:1.3.11
+     +--- org.spongepowered:configurate-yaml:4.1.2
+     |    +--- org.yaml:snakeyaml:1.28 -> 1.33
+     |    \--- org.spongepowered:configurate-core:4.1.2 (*)
+     +--- org.spongepowered:configurate-gson:4.1.2
+     |    +--- com.google.code.gson:gson:2.8.0 -> 2.10.1
+     |    \--- org.spongepowered:configurate-core:4.1.2 (*)
+     \--- com.github.ben-manes.caffeine:caffeine:3.1.8
+          +--- org.checkerframework:checker-qual:3.37.0 -> 3.42.0
+          \--- com.google.errorprone:error_prone_annotations:2.21.1
+
+kotlinBuildToolsApiClasspath
+\--- org.jetbrains.kotlin:kotlin-build-tools-impl:{strictly 2.0.20-Beta1} -> 2.0.20-Beta1
+     +--- org.jetbrains.kotlin:kotlin-build-tools-api:2.0.20-Beta1
+     +--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1
+     |    \--- org.jetbrains:annotations:13.0
+     +--- org.jetbrains.kotlin:kotlin-compiler-embeddable:2.0.20-Beta1
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-script-runtime:2.0.20-Beta1
+     |    +--- org.jetbrains.kotlin:kotlin-reflect:1.6.10
+     |    +--- org.jetbrains.kotlin:kotlin-daemon-embeddable:2.0.20-Beta1
+     |    \--- org.jetbrains.intellij.deps:trove4j:1.0.20200330
+     +--- org.jetbrains.kotlin:kotlin-compiler-runner:2.0.20-Beta1
+     |    +--- org.jetbrains.kotlin:kotlin-build-common:2.0.20-Beta1
+     |    +--- org.jetbrains.kotlin:kotlin-daemon-client:2.0.20-Beta1
+     |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+     |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.0
+     |    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:2.0.20-Beta1 (*)
+     +--- org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:2.0.20-Beta1
+     |    +--- org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.0.20-Beta1
+     |    |    +--- org.jetbrains.kotlin:kotlin-scripting-common:2.0.20-Beta1
+     |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+     |    |    +--- org.jetbrains.kotlin:kotlin-scripting-jvm:2.0.20-Beta1
+     |    |    |    +--- org.jetbrains.kotlin:kotlin-script-runtime:2.0.20-Beta1
+     |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+     |    |    |    \--- org.jetbrains.kotlin:kotlin-scripting-common:2.0.20-Beta1 (*)
+     |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+     \--- org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.0.20-Beta1 (*)
+
+kotlinCompilerClasspath
+\--- org.jetbrains.kotlin:kotlin-compiler-embeddable:2.0.20-Beta1
+     +--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1
+     |    \--- org.jetbrains:annotations:13.0
+     +--- org.jetbrains.kotlin:kotlin-script-runtime:2.0.20-Beta1
+     +--- org.jetbrains.kotlin:kotlin-reflect:1.6.10
+     +--- org.jetbrains.kotlin:kotlin-daemon-embeddable:2.0.20-Beta1
+     \--- org.jetbrains.intellij.deps:trove4j:1.0.20200330
+
+kotlinCompilerPluginClasspath
+No dependencies
+
+kotlinCompilerPluginClasspathMain - Kotlin compiler plugins for compilation
++--- org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:2.0.20-Beta1
+|    +--- org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.0.20-Beta1
+|    |    +--- org.jetbrains.kotlin:kotlin-scripting-common:2.0.20-Beta1
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1
+|    |    |         \--- org.jetbrains:annotations:13.0
+|    |    +--- org.jetbrains.kotlin:kotlin-scripting-jvm:2.0.20-Beta1
+|    |    |    +--- org.jetbrains.kotlin:kotlin-script-runtime:2.0.20-Beta1
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-scripting-common:2.0.20-Beta1 (*)
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+\--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:2.0.20-Beta1
+
+kotlinCompilerPluginClasspathTest - Kotlin compiler plugins for compilation
++--- org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:2.0.20-Beta1
+|    +--- org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.0.20-Beta1
+|    |    +--- org.jetbrains.kotlin:kotlin-scripting-common:2.0.20-Beta1
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1
+|    |    |         \--- org.jetbrains:annotations:13.0
+|    |    +--- org.jetbrains.kotlin:kotlin-scripting-jvm:2.0.20-Beta1
+|    |    |    +--- org.jetbrains.kotlin:kotlin-script-runtime:2.0.20-Beta1
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-scripting-common:2.0.20-Beta1 (*)
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+\--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:2.0.20-Beta1
+
+kotlinKaptWorkerDependencies
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:2.0.20-Beta1
+\--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1
+     \--- org.jetbrains:annotations:13.0
+
+kotlinKlibCommonizerClasspath
+\--- org.jetbrains.kotlin:kotlin-klib-commonizer-embeddable:2.0.20-Beta1
+     +--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1
+     |    \--- org.jetbrains:annotations:13.0
+     \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:2.0.20-Beta1
+          +--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+          +--- org.jetbrains.kotlin:kotlin-script-runtime:2.0.20-Beta1
+          +--- org.jetbrains.kotlin:kotlin-reflect:1.6.10
+          +--- org.jetbrains.kotlin:kotlin-daemon-embeddable:2.0.20-Beta1
+          \--- org.jetbrains.intellij.deps:trove4j:1.0.20200330
+
+kotlinNativeBundleConfiguration
+\--- org.jetbrains.kotlin:kotlin-native-prebuilt:2.0.20-Beta1
+
+kotlinNativeCompilerPluginClasspath
+No dependencies
+
+kotlinScriptDef - Script filename extensions discovery classpath configuration (n)
+No dependencies
+
+kotlinScriptDefExtensions
+No dependencies
+
+mainSourceElements - List of source directories contained in the Main SourceSet. (n)
+No dependencies
+
+runtimeClasspath - Runtime classpath of null/main.
+\--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.20-Beta1
+     +--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1
+     |    +--- org.jetbrains:annotations:13.0
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> 2.0.20-Beta1 (c)
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> 2.0.20-Beta1 (c)
+     \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.0.20-Beta1
+          \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+
+runtimeElements - Runtime elements for the 'main' feature. (n)
+No dependencies
+
+runtimeElements-published (n)
+No dependencies
+
+runtimeOnly - Runtime only dependencies for null/main. (n)
+No dependencies
+
+shadow
+No dependencies
+
+shadowRuntimeElements (n)
+No dependencies
+
+testAnnotationProcessor - Annotation processors and their dependencies for source set 'test'.
+No dependencies
+
+testApi - API dependencies for null/test (n)
+No dependencies
+
+testApiDependenciesMetadata
+No dependencies
+
+testCompileClasspath - Compile classpath for null/test.
+\--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.20-Beta1
+     +--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1
+     |    +--- org.jetbrains:annotations:13.0
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> 2.0.20-Beta1 (c)
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> 2.0.20-Beta1 (c)
+     \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.0.20-Beta1
+          \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+
+testCompileOnly - Compile only dependencies for null/test. (n)
+No dependencies
+
+testCompileOnlyDependenciesMetadata
+No dependencies
+
+testImplementation - Implementation only dependencies for null/test. (n)
+No dependencies
+
+testImplementationDependenciesMetadata
+\--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.20-Beta1
+     +--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1
+     \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.0.20-Beta1
+          \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1
+
+testIntransitiveDependenciesMetadata
+No dependencies
+
+testKotlinScriptDef - Script filename extensions discovery classpath configuration (n)
+No dependencies
+
+testKotlinScriptDefExtensions
+No dependencies
+
+testRuntimeClasspath - Runtime classpath of null/test.
+\--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.20-Beta1
+     +--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1
+     |    +--- org.jetbrains:annotations:13.0
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> 2.0.20-Beta1 (c)
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> 2.0.20-Beta1 (c)
+     \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.0.20-Beta1
+          \--- org.jetbrains.kotlin:kotlin-stdlib:2.0.20-Beta1 (*)
+
+testRuntimeOnly - Runtime only dependencies for null/test. (n)
+No dependencies
+
+(c) - A dependency constraint, not a dependency. The dependency affected by the constraint occurs elsewhere in the tree.
+(*) - Indicates repeated occurrences of a transitive dependency subtree. Gradle expands transitive dependency subtrees only once per project; repeat occurrences only display the root of the subtree, followed by this annotation.
+
+(n) - A dependency or dependency configuration that cannot be resolved.
+
+A web-based, searchable dependency report is available by adding the --scan option.
