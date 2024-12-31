@@ -38,6 +38,8 @@ class Aetherium : JavaPlugin() {
         logger.info("Event listener SRVI_PEBBLE has been registered.")
         server.pluginManager.registerEvents(OverrideCustomCrafts(this@Aetherium), this)
         logger.info("Event listener OVERRIDE_CUSTOM_CRAFTS has been registered.")
+        server.pluginManager.registerEvents(MinecartSpeed(), this)
+        logger.info("Event listener MINECART_SPEED has been registered.")
 
         StoneFromPebbleRecipe(this@Aetherium).registerRecipe()
         logger.info("Recipe STONE_FROM_PEBBLE has been registered.")

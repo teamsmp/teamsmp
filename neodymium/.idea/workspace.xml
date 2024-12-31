@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35fd9516-43f1-423d-a65d-a3eb3a0692aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../aetherium/src/main/kotlin/uk/teamsmp/aetherium/events/MinecartSpeed.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cerium/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cerium/.idea/modules/cerium.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osmiumd/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osmiumd/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osmiumd/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/.idea/osmiumd_rs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/servers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/src/check.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/src/routes.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/src/storage.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../osmiumd_rs/src/types.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aetherium/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../aetherium/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aetherium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aetherium/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aetherium/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../aetherium/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aetherium/src/main/kotlin/uk/teamsmp/aetherium/Aetherium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../aetherium/src/main/kotlin/uk/teamsmp/aetherium/Aetherium.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aetherium/src/main/kotlin/uk/teamsmp/aetherium/events/OverrideCustomCrafts.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../aetherium/src/main/kotlin/uk/teamsmp/aetherium/events/OverrideCustomCrafts.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aetherium/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../aetherium/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../elysium/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../elysium/.vscode/settings.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="neodymium" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jungltemple&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/teamsmp/teamsmp.git&quot;,
+    &quot;accountId&quot;: &quot;a96dac85-f303-4f90-951f-d123b8b68390&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2qyxSGg7pl8eIGVnYRz0kCdtayV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Gradle./home/jungl/code/teamsmp/neodymium [wrapper].executor": "Run",
+    "Gradle.neodymium [wrapper].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "aetherium-srvi-custom"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35fd9516-43f1-423d-a65d-a3eb3a0692aa" name="Changes" comment="" />
+      <created>1735648616442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735648616442</updated>
+    </task>
+    <servers />
+  </component>
+</project>

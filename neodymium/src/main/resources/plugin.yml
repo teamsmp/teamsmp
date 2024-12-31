@@ -1,0 +1,9 @@
+name: neodymium
+version: '0.0.1-beta'
+main: uk.teamsmp.neodymium.Neodymium
+api-version: '1.21'
+prefix: "&8[&b&lNEODYMIUM&8]&r"
+load: STARTUP
+authors: [ JunglTemple ]
+description: neodymium, the Team SMP Season 3 survival plugin.
+website: teamsmp.pages.dev
